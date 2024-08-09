@@ -32,18 +32,30 @@
   }
 }
 
-body:has(.contact, .prices, .visit) .background::before {
+body:has(.visit) .background::before {
   height: 150%;
 }
 @media (width < 500px) {
-  body:has(.contact, .prices, .visit) .background::before {
-    left: 5%;
+  body:has(.visit) .background::before {
+    left: -20%;
   }
 }
 
+body:has(.prices) .background::before {
+  height: 150%;
+}
 @media (width < 500px) {
-  body:has(.visit) .background::before {
-    left: -20%;
+  body:has(.prices) .background::before {
+    left: -60%;
+  }
+}
+
+body:has(.contact) .background::before {
+  height: 150%;
+}
+@media (width < 500px) {
+  body:has(.contact) .background::before {
+    left: 5%;
   }
 }
 

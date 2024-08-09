@@ -464,28 +464,36 @@ footer a {
   }
 }
 
-body:has(.contact, .prices, .visit) .background::before {
+body:has(.visit) .background::before {
   height: 150%;
 }
-@media (width < 500px) {
-  body:has(.contact, .prices, .visit) .background::before {
-    left: 5%;
-  }
-}
-
 @media (width < 500px) {
   body:has(.visit) .background::before {
     left: -20%;
   }
 }
 
+body:has(.prices) .background::before {
+  height: 150%;
+}
+@media (width < 500px) {
+  body:has(.prices) .background::before {
+    left: -60%;
+  }
+}
+
+body:has(.contact) .background::before {
+  height: 150%;
+}
+@media (width < 500px) {
+  body:has(.contact) .background::before {
+    left: 5%;
+  }
+}
+
 @font-face {
   font-family: "Edu";
   src: url("../src/fonts/EduAUVICWANTHand-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("../src/fonts/OpenSans-VariableFont_wdth,wght.ttf");
 }
 @font-face {
   font-family: "Outfit";
