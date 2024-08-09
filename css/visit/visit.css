@@ -1,0 +1,118 @@
+.visit h1 {
+  margin: 0.5em 0;
+  font-family: "Edu";
+}
+.visit h2 {
+  margin: 1em 0;
+}
+.visit img {
+  display: none;
+}
+.visit ul {
+  padding-left: 1.25em;
+  font-size: 18px;
+  color: #664d20;
+  font-weight: bold;
+  margin: 1em 0;
+}
+.visit p {
+  margin-bottom: 1em;
+}
+
+@media (width > 462px) {
+  .visit {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 75px;
+  }
+  .visit p {
+    line-height: 1.6;
+  }
+}
+@media (width > 600px) {
+  .visit {
+    width: 500px;
+  }
+}
+@media (width > 700px) {
+  .visit {
+    width: 600px;
+  }
+}
+@media (width > 850px) {
+  .visit {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+  }
+  .visit-content {
+    max-width: 450px;
+  }
+  .visit p {
+    font-size: 18px;
+  }
+  .visit ul {
+    font-size: 22px;
+  }
+  .visit h2 {
+    font-size: 24px;
+  }
+  .visit h2:first-of-type {
+    margin-top: 0.5em;
+  }
+  .visit h1 {
+    font-size: 37px;
+    margin-top: 0;
+    margin-bottom: 1.75em;
+  }
+  .visit img {
+    display: block;
+    width: 200px;
+  }
+
+  .visit-wrap {
+    position: sticky;
+    top: 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (width > 950px) {
+  .visit-content {
+    max-width: 550px;
+  }
+}
+@media (width > 1000px) {
+  .visit {
+    padding-top: 50px;
+  }
+  .visit p {
+    font-size: 22px;
+    max-width: 650px;
+    line-height: 1.5;
+  }
+  .visit ul {
+    font-size: 24px;
+  }
+  .visit h3 {
+    font-size: 22px;
+  }
+  .visit h2 {
+    font-size: 28px;
+  }
+  .visit img {
+    width: 235px;
+  }
+}
+@media (width > 1200px) {
+  .visit {
+    justify-content: space-between;
+  }
+
+  .visit-content {
+    max-width: 930px;
+  }
+}
+
+/*# sourceMappingURL=visit.css.map */

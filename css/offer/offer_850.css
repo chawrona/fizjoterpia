@@ -1,0 +1,143 @@
+@media (width > 850px) {
+  .offer-physiogo {
+    position: relative;
+  }
+
+  .offer-physiogo_expandList li {
+    padding-right: 50%;
+  }
+  .offer-physiogo_expandList li .offer-physiogo_expand {
+    display: block;
+    padding-right: 0;
+  }
+  .offer-physiogo_expandList li::before {
+    background-image: url("../../src/icons/circle.svg");
+    background-size: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .offer-physiogo_about {
+    width: 45%;
+    max-width: 550px;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+  }
+
+  .offer-physiogo_about--text {
+    padding-inline: 0;
+  }
+  .offer-physiogo_about--text:first-of-type {
+    padding-top: 19px;
+  }
+}
+@media (width > 850px) {
+  .offer-sollux {
+    position: relative;
+  }
+
+  .offer-sollux_image--wrap {
+    position: absolute;
+    width: 45%;
+    left: 30px;
+    max-width: 440px;
+    top: 50%;
+    transform: translateY(calc(-50% - 75px));
+  }
+
+  .offer-sollux_header {
+    padding-left: max(55% - 30px, 100% - 580px);
+  }
+
+  .offer-sollux_about--text {
+    padding-left: max(55% - 30px, 100% - 580px);
+  }
+  .offer-sollux_about--text:last-of-type {
+    padding-bottom: 150px;
+  }
+
+  .offer-sollux_examples {
+    position: absolute;
+    width: 65%;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50%);
+    z-index: 99;
+    margin-bottom: 0;
+    padding: 15px;
+  }
+  .offer-sollux_examples::before {
+    display: none;
+  }
+  .offer-sollux_examples--header {
+    padding: 5px 0;
+    text-align: left;
+    float: left;
+    display: inline;
+  }
+  .offer-sollux_examples--list {
+    float: left;
+    display: block;
+    padding-bottom: 0;
+    line-height: 1.3;
+    columns: 3;
+    margin-inline: 0;
+  }
+  .offer-sollux_examples--list li {
+    margin-top: 0;
+  }
+  .offer-sollux_examples.list-visible .offer-sollux_examples--list {
+    max-width: none;
+  }
+}
+@media (width > 850px) {
+  .offer-lympha {
+    display: block;
+    padding-top: 150px;
+    position: relative;
+  }
+  .offer-lympha_image--wrap {
+    position: absolute;
+    left: 30px;
+    width: 45%;
+    max-width: 440px;
+    padding: 0;
+    top: calc(150px + 1em);
+    display: block;
+  }
+  .offer-lympha_image--wrap .inside_image {
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    padding-inline: 0;
+  }
+  .offer-lympha_image--wrap .offer-lympha_examples--list {
+    display: block;
+    padding-right: 0;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .offer-lympha_about {
+    display: block;
+    padding-left: max(55% - 30px, 100% - 580px);
+    padding-bottom: 25px;
+  }
+  .offer-lympha_about .inside_buttons {
+    display: flex;
+    justify-content: start;
+    width: 100%;
+  }
+  .offer-lympha_examples {
+    display: none;
+  }
+  .offer-lympha_buttons {
+    display: none;
+  }
+
+  .offer-lympha_examples--header::before {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=offer_850.css.map */

@@ -1,0 +1,126 @@
+@media (width > 1000px) {
+  .offer-physiogo_expandList li .offer-physiogo_expand,
+.offer-physiogo_about--text,
+.offer-sollux_about--text,
+.offer-lympha_about--text,
+.offer-lympha_examples--list li {
+    font-size: 21px;
+  }
+
+  .offer-sollux_examples--header {
+    font-size: 21px;
+    margin-bottom: 0.25em;
+  }
+
+  .offer-physiogo_header,
+.offer-sollux_header,
+.offer-lympha_header,
+.offer-physiogo_expandList li {
+    font-size: 26px;
+  }
+
+  .offer-physiogo_expandList li .offer-physiogo_subtext {
+    font-size: 18px;
+  }
+
+  .offer-sollux_examples li {
+    font-size: 16px;
+  }
+
+  .offer-physiogo_image--wrap::before,
+.offer-sollux_image--wrap::before,
+.offer-lympha_image--wrap::before {
+    font-size: 24px;
+  }
+
+  .offer-physiogo_about {
+    top: 200px;
+  }
+
+  h1 {
+    font-size: 37px;
+  }
+
+  .offer-lympha_about .inside_buttons {
+    justify-content: space-between;
+  }
+
+  .offer-lympha_button {
+    font-size: 22px;
+  }
+}
+@media (width > 1025px) {
+  .offer-physiogo_about {
+    top: 100px;
+  }
+
+  .offer-physiogo_expandList li:last-of-type {
+    padding-bottom: 1.5em;
+  }
+}
+@media (width > 972px) {
+  .offer-lympha_about {
+    padding-bottom: 70px;
+  }
+
+  .inside_buttons {
+    margin-top: 50px;
+  }
+}
+@media (width > 1200px) {
+  .offer {
+    padding-top: 50px;
+  }
+
+  h1, .offer-physiogo_header, .offer-physiogo_expandList li {
+    padding-left: calc((100% - 1200px) / 2 + 30px);
+    padding-right: calc((100% - 1200px) / 2 + 30px + 550px);
+  }
+
+  .offer-physiogo_image--wrap {
+    margin-left: 0;
+    max-width: 550px;
+  }
+
+  .offer-physiogo_about {
+    top: 20px;
+    right: calc((100% - 1200px) / 2);
+  }
+
+  .offer-physiogo_about--text:first-of-type {
+    padding-top: 2.3em;
+  }
+
+  .offer-sollux_image--wrap, .offer-lympha_image--wrap {
+    left: calc((100% - 1200px) / 2 + 30px);
+    max-width: 550px;
+  }
+
+  .offer-lympha_image--wrap {
+    top: 50px;
+  }
+
+  .offer-sollux_header, .offer-sollux_about--text, .offer-lympha_about {
+    padding-left: calc((100% - 1200px) / 2 + 680px);
+    padding-right: calc((100% - 1200px) / 2);
+  }
+
+  .offer-sollux_examples {
+    width: calc(50% - 75px);
+  }
+
+  .offer-lympha_about {
+    padding-bottom: 0;
+  }
+}
+@media (width > 1270px) {
+  .offer-sollux_header, .offer-sollux_about--text, .offer-lympha_about {
+    padding-right: calc((100% - 1200px) / 2 - 30px);
+  }
+
+  .offer-physiogo_about {
+    right: calc((100% - 1200px) / 2 - 30px);
+  }
+}
+
+/*# sourceMappingURL=offer_1025.css.map */

@@ -1,0 +1,243 @@
+.prices h1 {
+  margin: 0.5em 0;
+  font-family: "Edu";
+}
+.prices h2 {
+  margin-top: 0.5em;
+  margin-bottom: 0.25em;
+}
+.prices p {
+  margin-bottom: 1em;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.prices-wrap img {
+  display: none;
+}
+
+h2.prices-firstHeadline {
+  margin: 1em 0;
+}
+
+.prices-content {
+  max-width: 1050px;
+}
+
+.prices-prices {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.prices-prices::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -10px;
+  width: 70px;
+  height: 106%;
+  transform: translateY(-50%);
+  background-color: #fde5bc;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: -5;
+}
+.prices-prices::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  width: 70px;
+  height: 104%;
+  transform: translateY(-50%);
+  background-color: #ffe1ad;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  z-index: -4;
+}
+
+.prices-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 65px);
+  padding: 10px 15px;
+  font-weight: 600;
+  background-color: #ffefd3;
+  box-shadow: 0 4px 4px hsla(0deg, 0%, 0%, 0.25);
+  z-index: -5;
+}
+.prices-row:nth-last-of-type(2n) {
+  width: 97%;
+  background-color: #fffbf5;
+  z-index: auto;
+}
+
+.prices-price {
+  display: block;
+  flex-shrink: 0;
+  margin-left: 10px;
+  text-align: right;
+  font-weight: bold;
+}
+
+.prices-text:first-of-type {
+  margin-top: 80px;
+}
+
+.prices-container {
+  position: relative;
+}
+
+.prices-smallText {
+  font-size: 0.7em;
+}
+
+.prices-question {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: none;
+  align-items: center;
+  align-self: end;
+  justify-content: end;
+  gap: 5px;
+  width: 100%;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #664d20;
+  text-align: right;
+}
+.prices-question:hover {
+  color: #b08637;
+}
+.prices-question img {
+  width: 34px;
+}
+
+@media (width > 462px) {
+  .prices {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 75px;
+  }
+  .prices p {
+    line-height: 1.6;
+  }
+}
+@media (width > 500px) {
+  .prices {
+    width: 450px;
+  }
+}
+@media (width > 600px) {
+  .prices {
+    width: 500px;
+  }
+  .prices br:not(.prices-current_br) {
+    display: none;
+  }
+
+  .prices-price {
+    margin-left: 15px;
+  }
+}
+@media (width > 700px) {
+  .prices {
+    width: 600px;
+  }
+}
+@media (width > 850px) {
+  .prices {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    width: 100%;
+  }
+  .prices-content {
+    max-width: 550px;
+  }
+  .prices p {
+    font-size: 16px;
+  }
+  .prices h2 {
+    font-size: 24px;
+  }
+  .prices .prices-firstHeadline {
+    margin-top: 0.5em;
+  }
+  .prices h1 {
+    margin-top: 0;
+    margin-bottom: 1.75em;
+    font-size: 37px;
+  }
+
+  .prices-wrap img {
+    display: block;
+    width: 200px;
+  }
+
+  .prices-row {
+    font-size: 18px;
+  }
+
+  .prices-smallText {
+    font-size: 0.75em;
+  }
+
+  .prices-wrap {
+    position: sticky;
+    top: 1.5em;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (width > 1000px) {
+  .prices {
+    padding-top: 50px;
+  }
+  .prices-content {
+    max-width: 600px;
+  }
+  .prices h2 {
+    font-size: 28px;
+  }
+  .prices p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  .prices h1 {
+    font-size: 40px;
+  }
+
+  .prices-row {
+    font-size: 20px;
+  }
+}
+@media (width > 1100px) {
+  .prices-content {
+    max-width: 700px;
+  }
+
+  .prices-question {
+    display: flex;
+  }
+}
+@media (width > 1200px) {
+  .prices {
+    justify-content: space-between;
+  }
+  .prices br {
+    display: none;
+  }
+
+  .prices-content {
+    max-width: 830px;
+  }
+
+  .prices-wrap img {
+    display: block;
+    width: 235px;
+  }
+}
+
+/*# sourceMappingURL=prices.css.map */

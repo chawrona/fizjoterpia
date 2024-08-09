@@ -1,0 +1,99 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about h2 {
+  margin: 1em 0;
+  font-family: "Edu";
+}
+.about img {
+  flex-shrink: 0;
+  margin: 1.5em auto;
+  max-width: 513px;
+  max-width: min(513px, 90%);
+  aspect-ratio: 663/455;
+}
+.about p:not(:first-of-type) {
+  margin-bottom: 1em;
+}
+.about p:last-of-type {
+  margin-top: 1em;
+}
+
+@media (width > 462px) {
+  .about {
+    width: 400px;
+    margin: 0 auto;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+}
+@media (width > 600px) {
+  .about {
+    width: 500px;
+  }
+}
+@media (width > 700px) {
+  .about {
+    width: 500px;
+  }
+}
+@media (width > 850px) {
+  .about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 100%;
+    margin-top: 50px;
+  }
+  .about-wrap {
+    align-self: start;
+  }
+  .about-text {
+    align-self: start;
+    margin-top: 2.5em;
+  }
+  .about p {
+    width: 95%;
+    max-width: 550px;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .about p:last-of-type {
+    margin-top: 2.5em;
+    margin-bottom: 0;
+    justify-self: end;
+  }
+  .about h2 {
+    margin-top: 0;
+  }
+  .about img {
+    display: block;
+    width: 95%;
+    justify-self: end;
+    align-self: end;
+    max-width: 500px;
+    margin: 0;
+  }
+}
+@media (width > 1000px) {
+  .about h2 {
+    font-size: 28px;
+  }
+  .about p {
+    font-size: 20px;
+  }
+}
+@media (width > 1200px) {
+  .about h2 {
+    font-size: 34px;
+  }
+  .about p {
+    font-size: 22px;
+  }
+}
+
+/*# sourceMappingURL=about_about.css.map */

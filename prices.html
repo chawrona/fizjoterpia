@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Dawid Chawrona">
+    <meta name="description" content="Profesjonalne usługi fizjoterapeutyczne - Barbara Porębska">
+    <meta name="keywords" content="Barbara Poręba, fizjoterapia, rehabilitacja, usługi fizjoterapeutyczne, mobilna fizjoterapia, profilaktyka, leczenie, terapia indywidualna, Nowy Sącz">
+    <!-- Media społecznościowe -->
+    <meta property="og:title" content="Fizjoterapia Barbara Poręba">
+    <meta property="og:description" content="Indywidualne usługi fizjoterapeutyczne. Przywróć swoją sprawność i komfort życia.">
+    <meta property="og:image" content="./src/images/businessCard.webp">
+    <!-- Zmienić gdy zostanie zakupiona domena -->
+    <meta property="og:url" content="">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./src/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./src/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./src/icons/favicon-16x16.png">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/prices/prices.css">
+
+    <title>Fizjoterapia - Cennik</title>
+</head>
+
+<body>
+    <div class="background"></div>
+    <nav class="mobile">
+        <button class="mobile-close">
+            <img src="./src/icons/close.svg" alt="close icon">
+        </button>
+        <ul>
+            <li><a href="index.html" class="mobile-link">Strona Główna</a></li>
+            <li><a href="offer.html" class="mobile-link">Oferta</a></li>
+            <li><a href="prices.html" class="mobile-link">Cennik</a></li>
+            <li><a href="visit.html" class="mobile-link">Pierwsza wizyta</a></li>
+            <li><a href="contact.html" class="mobile-link">Kontakt</a></li>
+        </ul>
+    </nav>
+    <nav class="primary-navigation">
+        <ul>
+            <li>
+                <a href="index.html" class="nav-logo">
+                    <img src="./src/images/logo.webp" alt="fizjoterapia Barbara Poręba" class="nav-firstLogo">
+                    <img src="./src/images/logo2.webp" alt="fizjoterapia Barbara Poręba" class="nav-secondLogo">
+                </a>
+            </li>
+
+            <li><a href="offer.html" class="nav-link">Oferta</a></li>
+            <li><a href="prices.html" class="nav-link">Cennik</a></li>
+            <li><a href="visit.html" class="nav-link">Pierwsza wizyta</a></li>
+            <li><a href="contact.html" class="nav-link nav-contact">Kontakt</a></li>
+
+            <li>
+                <a href="#" class="nav-link nav-burger">
+                    <img src="./src/icons/menu.png" alt="menu">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main class="prices">
+        <div class="prices-wrap">
+            <h1>Cennik</h1>
+            <img src="./src/images/logo3.svg" alt="Logo">
+        </div>
+
+        <section class="prices-content">
+            <div class="prices-container">
+                <a href="#" class="prices-question">
+                    Jak się przygotować na pierwszą wizytę?
+                    <img src="./src/icons/info.svg" alt="info">
+                </a>
+                <h2 class="prices-firstHeadline">Fizykoterapia:</h2>
+                <div class="prices-prices" id="prices">
+                    <div class="prices-row" id="laser-punktowy">
+                        <span class="prices-service">Laser punktowy</span>
+                        <span class="prices-price">12 zł</span>
+                    </div>
+                    <div class="prices-row" id="pole-magnetyczne">
+                        <span class="prices-service">Pole magnetczne</span>
+                        <span class="prices-price">12 zł</span>
+                    </div>
+                    <div class="prices-row" id="ultradzwieki">
+                        <span class="prices-service">Ultradźwięki / Fonoforeza</span>
+                        <span class="prices-price">12 zł</span>
+                    </div>
+                    <div class="prices-row" id="lampa-sollux">
+                        <span class="prices-service">Lampa Sollux</span>
+                        <span class="prices-price">12 zł</span>
+                    </div>
+                    <div class="prices-row" id="prady">
+                        <span class="prices-service">Prądy <br class="prices-current_br"><span
+                                class="prices-smallText">(TENS, interferencyjne, Kotz'a, Traberta, diadynamiczne,
+                                galwanizacja, jonoforeza)</span></span>
+                        <span class="prices-price">10 zł</span>
+                    </div>
+                    <h2>Kinezyterapia:</h2>
+                    <div class="prices-row" id="cwiczenia">
+                        <span class="prices-service">Ćwiczenia <br><span class="prices-smallText">(30 -50
+                                min)</span></span>
+                        <span class="prices-price">30 - 40 zł</span>
+                    </div>
+                    <div class="prices-row" id="instruktaz-cwiczen">
+                        <span class="prices-service">Instruktaż ćwiczeń</span>
+                        <span class="prices-price">35 zł</span>
+                    </div>
+                    <div class="prices-row" id="konspekt-cwiczen">
+                        <span class="prices-service">Konspekt ćwiczeń</span>
+                        <span class="prices-price">40 zł</span>
+                    </div>
+                    <h2>Pozostałe:</h2>
+                    <div class="prices-row" id="konsultacja">
+                        <span class="prices-service">Konsultacja fizjoterapeutyczna <br><span
+                                class="prices-smallText">(45 - 60 min)</span></span>
+                        <span class="prices-price">70 zł</span>
+                    </div>
+                    <div class="prices-row" id="masaz-leczniczy">
+                        <span class="prices-service">Masaż leczniczy <br><span class="prices-smallText">(15 - 30
+                                min)</span></span>
+                        <span class="prices-price">30 - 45 zł</span>
+                    </div>
+                    <div class="prices-row" id="drenaz-limfatyczny">
+                        <span class="prices-service">Drenaż limfatyczny mechaniczny (BOA) kończyn dolnych</span>
+                        <span class="prices-price">25 zł</span>
+                    </div>
+                    <div class="prices-row" id="kinesjotaping">
+                        <span class="prices-service">Kinesjotaping <br><span class="prices-smallText">(jeden staw /
+                                jedna okolica)</span></span>
+                        <span class="prices-price">20 zł</span>
+                    </div>
+                </div>
+                <p class="prices-text">Ostateczne ceny niektórych zabiegów mogą się różnić, w zależności od
+                    indywidualnych potrzeb klienta.
+                </p>
+                <p class="prices-text">W trosce o własne bezpieczeństwo poinformuj mnie o swoim stanie zdrowia,
+                    przyjmowanych lekach, alergiach i innych dolegliwościach, które mogą być przeciwwskazaniami do
+                    wykonania zabiegu lub pogorszą Twój stan.
+                </p>
+                <p class="prices-text">Aby odwołać lub przesunąć wizytę, skontaktuj się ze mną najpóźniej dzień przed
+                    umówionym terminem.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer-wrap">
+            <section class="footer-menu">
+                <!-- <img src="./src/images/businessCard.webp" alt="Wizytówka - Barbara Poręba" class="footer-card"> -->
+                <img src="./src/images/logo5.svg" alt="Wizytówka - Barbara Poręba" class="footer-card">
+                <div class="footer-menu_container">
+                    <h3>Menu</h3>
+                    <nav>
+                        <ul class="footer-menu_nav">
+                            <li><a href="index.html" class="footer-link">Strona Główna</a></li>
+                            <li><a href="index.html" class="footer-link">O mnie</a></li>
+                            <li><a href="offer.html" class="footer-link">Oferta</a></li>
+                            <li><a href="prices.html" class="footer-link">Cennik</a></li>
+                            <li><a href="visit.html" class="footer-link">Pierwsza Wizyta</a></li>
+                            <li><a href="contact.html" class="footer-link">Kontakt</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+            <section class="footer-offer">
+                <h3>Oferta</h3>
+                <nav class="footer-offer_nav">
+                    <ul>
+                        <li><a href="#laser-punktowy" class="footer-link">Laser punktowy</a></li>
+                        <li><a href="#pole-magnetyczne" class="footer-link">Pole magnetyczne</a></li>
+                        <li><a href="#lampa-sollux" class="footer-link">Lampa Sollux</a></li>
+                        <li><a href="#prady" class="footer-link">Prądy</a></li>
+                        <li><a href="#cwiczenia" class="footer-link">Ćwiczenia</a></li>
+                        <li><a href="#instruktaz-cwiczen" class="footer-link">Instruktaż ćwiczeń</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#konspekt-cwiczen" class="footer-link">Konspekt ćwiczeń</a></li>
+                        <li><a href="#konsultacja" class="footer-link">Konsultacja</a></li>
+                        <li><a href="#masaz-leczniczy" class="footer-link">Masaż leczniczy</a></li>
+                        <li><a href="#drenaz-limfatyczny" class="footer-link">Drenaż limfatyczny</a></li>
+                        <li><a href="#kinesjotaping" class="footer-link">Kinesjotaping</a></li>
+                        <li><a href="#ultradzwieki" class="footer-link">Ultradźwięki</a></li>
+                    </ul>
+                </nav>
+            </section>
+            <section class="footer-contact">
+                <address>
+                    <h3>Adres</h3>
+                    <ul>
+                        <li>Paszyn 618</li>
+                        <li>33-326 Paszyn</li>
+                    </ul>
+                </address>
+                <address>
+                    <h3>Kontakt</h3>
+                    <ul>
+                        <li>570-220-483</li>
+                        <li>barbara.poreba.fizjo@gmail.com</li>
+                    </ul>
+                </address>
+            </section>
+        </section>
+        <hr>
+        <p class="footer-footer">Fizjoterapia Barbara Porębska 2024 ®</p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>

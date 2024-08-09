@@ -1,0 +1,74 @@
+@media (width > 462px) {
+  .offer {
+    padding-top: 75px;
+  }
+  .offer p {
+    line-height: 1.6;
+  }
+}
+@media (width > 500px) {
+  .offer-physiogo_expandList li {
+    padding-bottom: 1.5em;
+  }
+  .offer-physiogo_expandList li:first-of-type {
+    padding-top: 1em;
+    padding-bottom: 0.75em;
+  }
+  .offer-physiogo_expandList li:nth-of-type(2) {
+    padding-top: 0.75em;
+  }
+  .offer-physiogo_expandList li:last-of-type {
+    padding-bottom: 3em;
+  }
+
+  .offer-physiogo_about--text:first-of-type {
+    padding-top: 2em;
+  }
+  .offer-physiogo_about--text:last-of-type {
+    padding-bottom: 3em;
+  }
+
+  .offer-sollux_examples {
+    margin-bottom: 1.5em;
+  }
+  .offer-sollux_examples.list-visible .offer-sollux_examples--list {
+    max-width: 425px;
+    margin-inline: auto;
+  }
+
+  .offer-sollux_about--text {
+    padding-bottom: 1.5em;
+  }
+  .offer-sollux_about--text:nth-of-type(2) {
+    padding-top: 1.5em;
+    background-color: #fff;
+  }
+  .offer-sollux_about--text:last-of-type {
+    padding-top: 1.5em;
+  }
+
+  .offer-lympha_examples--list {
+    font-size: 15px;
+    line-height: 1.5;
+  }
+
+  .offer-lympha_buttons {
+    justify-content: space-evenly;
+    gap: 50px;
+  }
+
+  .offer-lympha_buttons {
+    margin: 1em 0;
+    justify-content: space-evenly;
+  }
+
+  .offer-lympha_button {
+    font-size: 18px;
+  }
+
+  .offer-lympha_buttons .secondary-button {
+    padding-inline: 1em;
+  }
+}
+
+/*# sourceMappingURL=offer_462-850.css.map */

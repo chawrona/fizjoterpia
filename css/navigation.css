@@ -1,0 +1,209 @@
+.primary-navigation {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  padding: 20px 15px;
+  padding-right: 10px;
+  z-index: 90;
+}
+
+.primary-navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-firstLogo {
+  display: none;
+  width: 225px;
+}
+
+.nav-secondLogo {
+  width: 225px;
+}
+
+.nav-link {
+  display: none;
+}
+
+.nav-burger {
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+.nav-burger:hover {
+  background-color: #f1f0f0;
+}
+.nav-burger img {
+  width: 64px;
+}
+
+.mobile {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  z-index: 100;
+  background-color: #ffffff;
+}
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+.mobile a {
+  display: block;
+  padding: 0.5em;
+  font-size: 30px;
+  font-weight: 400;
+  color: #141517;
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Edu";
+  font-weight: bold;
+  text-decoration-color: #ffe064;
+}
+.mobile a:hover {
+  color: #ffe064;
+}
+
+.mobile-close {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  width: 64px;
+  aspect-ratio: 1/1;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 101;
+}
+.mobile-close img {
+  width: 100%;
+}
+.mobile-close:hover {
+  background-color: #f1f0f0;
+}
+
+.mobile-visible {
+  display: grid;
+}
+
+@media (width > 462px) {
+  .primary-navigation {
+    max-width: 400px;
+    padding-inline: 0;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 400px) / 2);
+  }
+}
+@media (width > 600px) {
+  .primary-navigation {
+    max-width: 500px;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 500px) / 2);
+  }
+}
+@media (width > 700px) {
+  .primary-navigation {
+    max-width: 600px;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 600px) / 2);
+  }
+}
+@media (width > 850px) {
+  .primary-navigation {
+    max-width: 1200px;
+    padding-inline: 30px;
+  }
+
+  .primary-navigation ul {
+    justify-content: end;
+  }
+
+  li:has(.nav-logo) {
+    margin-right: auto;
+  }
+
+  .nav-link {
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    font-size: 19px;
+    font-weight: 600;
+    color: #141517;
+    text-decoration: none;
+    font-family: "Edu";
+    transition: color 0.25s;
+  }
+  .nav-link:hover {
+    color: #ffe064;
+  }
+
+  .nav-burger {
+    display: none;
+  }
+
+  .primary-navigation {
+    padding-right: 0;
+  }
+
+  a.nav-contact {
+    padding-right: 25px;
+  }
+}
+@media (width > 1000px) {
+  a.nav-contact {
+    padding-right: 35px;
+  }
+
+  .primary-navigation {
+    padding-left: 35px;
+  }
+}
+@media (width > 1025px) {
+  .primary-navigation {
+    padding: 20px 0px 20px 35px;
+  }
+
+  .nav-link {
+    padding: 1.5em;
+    font-size: 23px;
+  }
+
+  .nav-firstLogo {
+    display: block;
+    width: 250px;
+  }
+
+  .nav-secondLogo {
+    display: none;
+  }
+}
+@media (width > 1150px) {
+  .nav-link {
+    padding: 1.5em;
+  }
+}
+@media (width > 1250px) {
+  .primary-navigation {
+    padding-inline: 0;
+  }
+
+  a.nav-contact {
+    padding-right: 0;
+  }
+}
+
+/*# sourceMappingURL=navigation.css.map */

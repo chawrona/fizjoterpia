@@ -1,0 +1,545 @@
+.primary-navigation {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto 20px;
+  padding: 20px 15px;
+  padding-right: 10px;
+  z-index: 90;
+}
+
+.primary-navigation ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-firstLogo {
+  display: none;
+  width: 225px;
+}
+
+.nav-secondLogo {
+  width: 225px;
+}
+
+.nav-link {
+  display: none;
+}
+
+.nav-burger {
+  display: block;
+  border: none;
+  background-color: transparent;
+}
+.nav-burger:hover {
+  background-color: #f1f0f0;
+}
+.nav-burger img {
+  width: 64px;
+}
+
+.mobile {
+  position: fixed;
+  inset: 0;
+  display: none;
+  place-items: center;
+  z-index: 100;
+  background-color: #ffffff;
+}
+.mobile ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+}
+.mobile a {
+  display: block;
+  padding: 0.5em;
+  font-size: 30px;
+  font-weight: 400;
+  color: #141517;
+  text-align: left;
+  text-decoration: underline;
+  font-family: "Edu";
+  font-weight: bold;
+  text-decoration-color: #ffe064;
+}
+.mobile a:hover {
+  color: #ffe064;
+}
+
+.mobile-close {
+  position: absolute;
+  top: 50px;
+  right: 15px;
+  width: 64px;
+  aspect-ratio: 1/1;
+  border: none;
+  background: none;
+  cursor: pointer;
+  z-index: 101;
+}
+.mobile-close img {
+  width: 100%;
+}
+.mobile-close:hover {
+  background-color: #f1f0f0;
+}
+
+.mobile-visible {
+  display: grid;
+}
+
+@media (width > 462px) {
+  .primary-navigation {
+    max-width: 400px;
+    padding-inline: 0;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 400px) / 2);
+  }
+}
+@media (width > 600px) {
+  .primary-navigation {
+    max-width: 500px;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 500px) / 2);
+  }
+}
+@media (width > 700px) {
+  .primary-navigation {
+    max-width: 600px;
+  }
+
+  .mobile-close {
+    position: absolute;
+    right: calc((100% - 600px) / 2);
+  }
+}
+@media (width > 850px) {
+  .primary-navigation {
+    max-width: 1200px;
+    padding-inline: 30px;
+  }
+
+  .primary-navigation ul {
+    justify-content: end;
+  }
+
+  li:has(.nav-logo) {
+    margin-right: auto;
+  }
+
+  .nav-link {
+    display: grid;
+    place-items: center;
+    padding: 1em;
+    font-size: 19px;
+    font-weight: 600;
+    color: #141517;
+    text-decoration: none;
+    font-family: "Edu";
+    transition: color 0.25s;
+  }
+  .nav-link:hover {
+    color: #ffe064;
+  }
+
+  .nav-burger {
+    display: none;
+  }
+
+  .primary-navigation {
+    padding-right: 0;
+  }
+
+  a.nav-contact {
+    padding-right: 25px;
+  }
+}
+@media (width > 1000px) {
+  a.nav-contact {
+    padding-right: 35px;
+  }
+
+  .primary-navigation {
+    padding-left: 35px;
+  }
+}
+@media (width > 1025px) {
+  .primary-navigation {
+    padding: 20px 0px 20px 35px;
+  }
+
+  .nav-link {
+    padding: 1.5em;
+    font-size: 23px;
+  }
+
+  .nav-firstLogo {
+    display: block;
+    width: 250px;
+  }
+
+  .nav-secondLogo {
+    display: none;
+  }
+}
+@media (width > 1150px) {
+  .nav-link {
+    padding: 1.5em;
+  }
+}
+@media (width > 1250px) {
+  .primary-navigation {
+    padding-inline: 0;
+  }
+
+  a.nav-contact {
+    padding-right: 0;
+  }
+}
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+@media (width > 500px) {
+  main {
+    padding-inline: 20px;
+  }
+}
+@media (width > 650px) {
+  main {
+    padding-inline: 25px;
+  }
+}
+@media (width > 800px) {
+  main {
+    padding-inline: 30px;
+  }
+}
+@media (width > 1000px) {
+  main {
+    padding-inline: 35px;
+  }
+}
+@media (width > 1250px) {
+  main {
+    padding-inline: 0;
+  }
+}
+footer {
+  position: relative;
+  margin-top: 35px;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #BEBEBE;
+  background-color: #141517;
+}
+footer ul {
+  list-style: none;
+}
+footer h3 {
+  margin-bottom: 0.2em;
+  color: white;
+}
+footer address {
+  font-style: normal;
+}
+footer hr {
+  height: 1px;
+  margin-top: 15px;
+  border: none;
+  background-color: #383535;
+}
+footer a {
+  text-decoration: none;
+}
+
+.footer-wrap {
+  max-width: 1200px;
+  padding-top: 15px;
+  padding-inline: 15px;
+  display: none;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.footer-card {
+  width: 45%;
+}
+
+.footer-menu_container {
+  width: 45%;
+}
+
+.footer-link {
+  color: #BEBEBE;
+  transition: color 0.15s;
+}
+.footer-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer-contact {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 15.5px;
+  margin-top: 0.5em;
+}
+
+.footer-postalCode {
+  font-size: 13px;
+}
+
+.footer-email {
+  font-size: 13px;
+}
+
+.footer-footer {
+  padding: 0.75em;
+  text-align: center;
+  color: #636363;
+  font-size: 12px;
+}
+
+@media (width > 462px) {
+  footer {
+    font-size: 15px;
+  }
+
+  .footer-wrap {
+    width: 400px;
+    margin: 0 auto;
+    padding-inline: 0;
+    padding-top: 25px;
+  }
+
+  .footer-email, .footer-postalCode {
+    font-size: 15px;
+  }
+}
+@media (width > 850px) {
+  footer {
+    margin-top: 50px;
+    font-size: 16px;
+  }
+  footer h3 {
+    font-size: 18px;
+  }
+
+  .footer-email, .footer-postalCode {
+    font-size: 16px;
+  }
+
+  .footer-offer_nav {
+    display: flex;
+    gap: 20px;
+  }
+
+  .footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-top: 15px;
+    padding-inline: 30px;
+  }
+
+  .footer-menu {
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .footer-menu_container {
+    width: auto;
+  }
+
+  .footer-card {
+    align-self: center;
+    width: 100px;
+  }
+
+  .footer-contact {
+    flex-direction: column;
+    margin-top: 0;
+  }
+}
+@media (width > 1000px) {
+  .footer-wrap {
+    padding-inline: 35px;
+  }
+
+  .footer-offer_nav {
+    display: flex;
+    gap: 50px;
+  }
+
+  .footer-menu {
+    gap: 50px;
+  }
+}
+@media (width > 1400px) {
+  footer {
+    margin-top: 75px;
+    font-size: 16px;
+  }
+  footer h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
+  footer hr {
+    margin-top: 20px;
+  }
+
+  .footer-menu {
+    gap: 100px;
+  }
+
+  .footer-card {
+    width: 100px;
+  }
+
+  .footer-offer_nav {
+    gap: 50px;
+  }
+
+  .footer-footer {
+    font-size: 14px;
+  }
+
+  .footer-wrap {
+    padding-top: 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    justify-content: space-between;
+  }
+}
+.background {
+  inset: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -999;
+}
+.background::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  aspect-ratio: 1/1;
+  background-color: #fff6e8;
+  border: 200px solid #fffbf5;
+  border-radius: 50%;
+  left: 25%;
+  top: -200px;
+}
+@media (width < 850px) {
+  .background::before {
+    left: 15%;
+  }
+}
+@media (width < 600px) {
+  .background::before {
+    left: 0%;
+  }
+}
+@media (width < 500px) {
+  .background::before {
+    left: -15%;
+    border-width: 100px;
+  }
+}
+
+body:has(.contact, .prices, .visit) .background::before {
+  height: 150%;
+}
+@media (width < 500px) {
+  body:has(.contact, .prices, .visit) .background::before {
+    left: 5%;
+  }
+}
+
+@media (width < 500px) {
+  body:has(.visit) .background::before {
+    left: -20%;
+  }
+}
+
+@font-face {
+  font-family: "Edu";
+  src: url("../src/fonts/EduAUVICWANTHand-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  margin-top: 0;
+  color: #141517;
+  font-family: "Outfit";
+  line-height: 1.4;
+}
+
+.body-overflow_hidden {
+  overflow: hidden;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+.primary-button, .secondary-button {
+  display: inline-block;
+  font-style: normal;
+  font-family: "Outfit";
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.primary-button {
+  color: #141517;
+  background-color: #ffe064;
+}
+.primary-button:hover {
+  background-color: #edc936;
+}
+
+.secondary-button {
+  color: #ffffff;
+  background-color: #141517;
+}
+.secondary-button:hover {
+  background-color: #383737;
+}
+
+/*# sourceMappingURL=index.css.map */

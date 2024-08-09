@@ -1,0 +1,63 @@
+h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text {
+  padding-inline: 15px;
+}
+
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+  padding-left: 15px;
+}
+
+.offer-physiogo_expand {
+  padding-left: 27px;
+  padding-right: 15px;
+}
+
+@media (width > 500px) {
+  h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text,
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+    padding-inline: 8vw;
+  }
+}
+@media (width > 600px) {
+  h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text,
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+    padding-inline: 10vw;
+  }
+}
+@media (width > 700px) {
+  h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text,
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+    padding-inline: 14vw;
+  }
+}
+@media (width > 800px) {
+  h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text,
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+    padding-inline: 16vw;
+  }
+}
+@media (width > 850px) {
+  h1, .offer-sollux_header, .offer-lympha_about,
+.offer-lympha_examples--list, .offer-lympha_examples,
+.offer-sollux_examples, .offer-sollux_about--text,
+.offer-physiogo_expandList li, .offer-physiogo_header,
+.offer-physiogo_about--text {
+    padding-inline: 30px;
+  }
+}
+
+/*# sourceMappingURL=offer_paddings.css.map */
