@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "EduSwap";
+  src: url("../src/fonts/fallback.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Edu";
+  src: url("../src/fonts/EduAUVICWANTHand-VariableFont_wght.ttf");
+  font-display: swap;
+}
 .primary-navigation {
   width: 100%;
   max-width: 1200px;
@@ -61,7 +76,7 @@
   color: #141517;
   text-align: left;
   text-decoration: underline;
-  font-family: "Edu", serif;
+  font-family: "Edu", "EduSwap";
   font-weight: bold;
   text-decoration-color: #ffe064;
 }
@@ -144,7 +159,7 @@
     font-weight: 600;
     color: #141517;
     text-decoration: none;
-    font-family: "Edu", serif;
+    font-family: "Edu", "EduSwap";
     transition: color 0.25s;
   }
   .nav-link:hover {
@@ -491,15 +506,6 @@ body:has(.contact) .background::before {
   }
 }
 
-@font-face {
-  font-family: "Edu";
-  src: url("../src/fonts/EduAUVICWANTHand-VariableFont_wght.ttf");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Outfit";
-  src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
-}
 * {
   box-sizing: border-box;
   margin: 0;
