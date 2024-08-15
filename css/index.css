@@ -1,18 +1,3 @@
-@font-face {
-  font-family: "Outfit";
-  src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
-  font-display: swap;
-}
-@font-face {
-  font-family: "EduSwap";
-  src: url("../src/fonts/fallback.woff2");
-  font-display: swap;
-}
-@font-face {
-  font-family: "Edu";
-  src: url("../src/fonts/EduAUVICWANTHand-VariableFont_wght.ttf");
-  font-display: swap;
-}
 .primary-navigation {
   width: 100%;
   max-width: 1200px;
@@ -506,6 +491,14 @@ body:has(.contact) .background::before {
   }
 }
 
+@font-face {
+  font-family: "Outfit";
+  src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Edu";
+  src: url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+}
 * {
   box-sizing: border-box;
   margin: 0;
