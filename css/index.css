@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
 .primary-navigation {
   width: 100%;
   max-width: 1200px;
@@ -61,7 +62,7 @@
   color: #141517;
   text-align: left;
   text-decoration: underline;
-  font-family: "Edu", "EduSwap";
+  font-family: "Edu AU VIC WA NT Hand";
   font-weight: bold;
   text-decoration-color: #ffe064;
 }
@@ -144,7 +145,7 @@
     font-weight: 600;
     color: #141517;
     text-decoration: none;
-    font-family: "Edu", "EduSwap";
+    font-family: "Edu AU VIC WA NT Hand";
     transition: color 0.25s;
   }
   .nav-link:hover {
@@ -494,10 +495,6 @@ body:has(.contact) .background::before {
 @font-face {
   font-family: "Outfit";
   src: url("../src/fonts/Outfit-VariableFont_wght.ttf");
-}
-@font-face {
-  font-family: "Edu";
-  src: url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
 }
 * {
   box-sizing: border-box;

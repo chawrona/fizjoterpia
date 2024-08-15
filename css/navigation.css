@@ -61,7 +61,7 @@
   color: #141517;
   text-align: left;
   text-decoration: underline;
-  font-family: "Edu", "EduSwap";
+  font-family: "Edu AU VIC WA NT Hand";
   font-weight: bold;
   text-decoration-color: #ffe064;
 }
@@ -144,7 +144,7 @@
     font-weight: 600;
     color: #141517;
     text-decoration: none;
-    font-family: "Edu", "EduSwap";
+    font-family: "Edu AU VIC WA NT Hand";
     transition: color 0.25s;
   }
   .nav-link:hover {

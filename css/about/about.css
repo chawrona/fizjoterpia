@@ -17,7 +17,7 @@
 .header-subtitle {
   font-size: 22px;
   text-align: left;
-  font-family: "Edu", "EduSwap";
+  font-family: "Edu AU VIC WA NT Hand";
   margin-top: 10px;
 }
 
@@ -255,7 +255,7 @@
 }
 .about h2 {
   margin: 1em 0;
-  font-family: "Edu", "EduSwap";
+  font-family: "Edu AU VIC WA NT Hand";
 }
 .about img {
   flex-shrink: 0;
@@ -351,7 +351,7 @@
   display: block;
   text-align: center;
   font-weight: bold;
-  font-family: "Edu", "EduSwap";
+  font-family: "Edu AU VIC WA NT Hand";
   text-decoration: underline;
   color: #141517;
   max-width: 400px;
