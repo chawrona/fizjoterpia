@@ -312,7 +312,7 @@
     font-size: 18px;
     line-height: 1.4;
   }
-  .about p:last-of-type {
+  .about p:last-of-type:not(:first-of-type) {
     margin-top: 2.5em;
     margin-bottom: 0;
     justify-self: end;
